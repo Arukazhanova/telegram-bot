@@ -1,10 +1,10 @@
 
-try:
-    n=int(input("Enter number:"))
-    print(n)
-except:
-    print("Error")
-print(5)
+# try:
+#     n=int(input("Enter number:"))
+#     print(n)
+# except:
+#     print("Error")
+# print(5)
 
 # try:
 #     a=int(input("Enter number:"))
@@ -101,6 +101,15 @@ print(5)
 # except ValueError:
 #     print("error:no text")
 
-    
+
+try:
+    a = input("Enter number: ")  
+    if len(a) == 8: 
+        print(a)
+    else:
+        print("Short or Long") 
+except ValueError:
+    print("Invalid input")
+
     
     
